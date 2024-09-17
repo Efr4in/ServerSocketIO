@@ -11,7 +11,7 @@ server.app.use(bodyParser.json());
 
 server.app.use(
   cors({
-    origin: "https://cliente-socket-io-v1tk.vercel.app",
+    origin: "https://cliente-socket-io-bvtc.vercel.app/chat",
     credentials: true,
   })
 );
