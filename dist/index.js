@@ -14,7 +14,7 @@ server.app.use(body_parser_1.default.urlencoded({ extended: true }));
 server.app.use(body_parser_1.default.json());
 //configuracion de Cors
 server.app.use((0, cors_1.default)({
-    origin: "https://cliente-socket-io.vercel.app",
+    origin: "https://cliente-socket-io-v1tk.vercel.app",
     credentials: true,
 }));
 //Rutas del servicio
